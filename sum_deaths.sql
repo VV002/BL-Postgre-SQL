@@ -1,0 +1,1 @@
+select country_region, sum(death,new_deaths) as Total_deaths from covid_data;
